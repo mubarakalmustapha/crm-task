@@ -1,0 +1,158 @@
+CRITICAL - 2024-02-13 09:37:24 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:37:52 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:38:34 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:38:49 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:38:50 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:08 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:08 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:25 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:26 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:26 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:26 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:39:31 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Config\Routes.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(890): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:41:05 --> ErrorException: Undefined variable $tasksModel
+in APPPATH\Views\tasks\task.php on line 1.
+ 1 APPPATH\Views\tasks\task.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasksModel', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(40): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 09:41:06 --> ErrorException: Undefined variable $tasksModel
+in APPPATH\Views\tasks\task.php on line 1.
+ 1 APPPATH\Views\tasks\task.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasksModel', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(40): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 15:41:58 --> ErrorException: Undefined variable $full_name
+in APPPATH\Views\layout\dashboard-layout.php on line 75.
+ 1 APPPATH\Views\layout\dashboard-layout.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $full_name', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\layout\\dashboard-layout.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\layout\\dashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/dashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(20): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 15:42:47 --> ErrorException: Undefined variable $full_name
+in APPPATH\Views\layout\dashboard-layout.php on line 75.
+ 1 APPPATH\Views\layout\dashboard-layout.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $full_name', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\layout\\dashboard-layout.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\layout\\dashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/dashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(20): view('dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 22:34:39 --> ErrorException: Undefined array key "statu"
+in APPPATH\Views\dashboard\index.php on line 69.
+ 1 APPPATH\Views\dashboard\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "statu"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(21): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-13 23:37:23 --> ErrorException: Undefined array key "countdown"
+in APPPATH\Views\customers\summary.php on line 71.
+ 1 APPPATH\Views\customers\summary.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "countdown"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(33): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')

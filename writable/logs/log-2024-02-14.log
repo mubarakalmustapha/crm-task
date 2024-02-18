@@ -1,0 +1,81 @@
+CRITICAL - 2024-02-14 08:29:35 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:86)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:29:56 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:133)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:29:57 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:133)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:07 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:08 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:11 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:18 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:18 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:19 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:19 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:30:59 --> ErrorException: Cannot redeclare getStatusClass() (previously declared in C:\Users\Aminu\Desktop\crmtask1\app\Views\tasks\task.php:145)
+in APPPATH\Views\layout\dashboard-layout.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-14 08:44:25 --> ErrorException: Undefined array key "customers"
+in APPPATH\Views\tasks\task.php on line 38.
+ 1 APPPATH\Views\tasks\task.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customers"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(33): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-14 08:45:28 --> ErrorException: Undefined array key "start_date"
+in APPPATH\Views\tasks\task.php on line 39.
+ 1 APPPATH\Views\tasks\task.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start_date"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(34): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-14 08:46:41 --> ErrorException: Undefined array key "start_date"
+in APPPATH\Views\tasks\task.php on line 39.
+ 1 APPPATH\Views\tasks\task.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start_date"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(34): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-14 08:46:42 --> ErrorException: Undefined array key "start_date"
+in APPPATH\Views\tasks\task.php on line 39.
+ 1 APPPATH\Views\tasks\task.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start_date"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(34): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')

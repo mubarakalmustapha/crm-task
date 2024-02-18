@@ -1,0 +1,1291 @@
+INFO - 2024-02-17 03:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 03:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 03:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 03:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 03:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 04:06:53 --> ErrorException: Undefined array key "Priority"
+in APPPATH\Views\customers\summary.php on line 121.
+ 1 APPPATH\Views\customers\summary.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Priority"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 121)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:19:41 --> ErrorException: Undefined array key "Status"
+in APPPATH\Views\customers\summary.php on line 115.
+ 1 APPPATH\Views\customers\summary.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 115)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:19:59 --> ErrorException: Undefined array key "Status"
+in APPPATH\Views\customers\summary.php on line 115.
+ 1 APPPATH\Views\customers\summary.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 115)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:20:01 --> ErrorException: Undefined array key "Status"
+in APPPATH\Views\customers\summary.php on line 115.
+ 1 APPPATH\Views\customers\summary.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 115)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:20:23 --> ErrorException: Undefined array key "Status"
+in APPPATH\Views\customers\summary.php on line 115.
+ 1 APPPATH\Views\customers\summary.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 115)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:20:42 --> ErrorException: Undefined array key "Priority"
+in APPPATH\Views\customers\summary.php on line 121.
+ 1 APPPATH\Views\customers\summary.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Priority"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 121)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:21:01 --> ErrorException: Undefined array key "Priority"
+in APPPATH\Views\customers\summary.php on line 121.
+ 1 APPPATH\Views\customers\summary.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Priority"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 121)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 04:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 04:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 04:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 04:24:48 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:25:02 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:25:31 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:25:33 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:25:51 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:25:53 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 04:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 04:30:12 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 04:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 04:31:20 --> ErrorException: Undefined array key "comapany"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comapany"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(35): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 04:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 04:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 04:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 04:43:03 --> ArgumentCountError: Too few arguments to function App\Controllers\Customer::__construct(), 0 passed in C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php on line 913 and exactly 1 expected
+in APPPATH\Controllers\Customer.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Customer->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 04:43:55 --> ArgumentCountError: Too few arguments to function App\Controllers\Customer::__construct(), 0 passed in C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php on line 913 and exactly 1 expected
+in APPPATH\Controllers\Customer.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Customer->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 04:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 05:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-17 09:50:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'crmdatabase', 3306, '', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Aminu\Desktop\crmtask1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Aminu\Desktop\crmtask1\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2024-02-17 09:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 09:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 09:59:25 --> ErrorException: Maximum execution time of 60 seconds exceeded
+in APPPATH\Controllers\Traits\ZohoControllerTrait.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-17 10:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:03:20 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(72): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:05:42 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(72): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:06:00 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(72): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:07:39 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(72): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:21:57 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(80): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:23:40 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(76): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:24:42 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(76): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 10:33:13 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(80): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-17 10:46:40 --> mysqli_sql_exception: Column 'phone_number' cannot be null in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Customer.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Customer->add()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-17 10:46:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'phone_number' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (:company_name:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zipcode:, :country:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Customer.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 10:46:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'phone_number' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:39\', \'2024-02-17 10:46:39\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:39\', \'2024-02-17 10:46:39\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (:company_name:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zipcode:, :country:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Customer.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 10:46:40 --> [Caused by] mysqli_sql_exception: Column 'phone_number' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:39\', \'2024-02-17 10:46:39\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:39\', \'2024-02-17 10:46:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:39\', \'2024-02-17 10:46:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (:company_name:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zipcode:, :country:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Customer.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-17 10:46:59 --> mysqli_sql_exception: Column 'phone_number' cannot be null in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Customer.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Customer->add()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-17 10:46:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'phone_number' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (:company_name:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zipcode:, :country:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Customer.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 10:46:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'phone_number' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:58\', \'2024-02-17 10:46:58\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:58\', \'2024-02-17 10:46:58\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (:company_name:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zipcode:, :country:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Customer.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 10:46:59 --> [Caused by] mysqli_sql_exception: Column 'phone_number' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:58\', \'2024-02-17 10:46:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:58\', \'2024-02-17 10:46:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'mubee@gmail.com\', NULL, \'web\', \'city\', \'state\', \'1234\', \'country\', \'2024-02-17 10:46:58\', \'2024-02-17 10:46:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company_name`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zipcode`, `country`, `created_at`, `updated_at`) VALUES (:company_name:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zipcode:, :country:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Customer.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 10:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 10:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 11:08:15 --> CodeIgniter\Validation\Exceptions\ValidationException: "array" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('array')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('customers', 'customers', [...], [...], [...])
+ 3 APPPATH\Controllers\TaskController.php(56): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 11:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-17 11:31:48 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\TaskController.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\TaskController->add()
+#6 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#7 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#10 {main}
+CRITICAL - 2024-02-17 11:31:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES (:customers:, :name:, :hourly_rate:, :start_date:, :due_date:, :priority:, :related_to:, :task_description:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Controllers\TaskController.php(63): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 11:31:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES ((\'1\',\'2\'), \'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'Medium\', \'test\', \'2024-02-17 11:31:48\', \'2024-02-17 11:31:48\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES ((\'1\',\'2\'), \'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'Medium\', \'test\', \'2024-02-17 11:31:48\', \'2024-02-17 11:31:48\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES (:customers:, :name:, :hourly_rate:, :start_date:, :due_date:, :priority:, :related_to:, :task_description:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Controllers\TaskController.php(63): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->add()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 11:31:48 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES ((\'1\',\'2\'), \'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'Medium\', \'test\', \'2024-02-17 11:31:48\', \'2024-02-17 11:31:48\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES ((\'1\',\'2\'), \'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'Medium\', \'test\', \'2024-02-17 11:31:48\', \'2024-02-17 11:31:48\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES ((\'1\',\'2\'), \'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'Medium\', \'test\', \'2024-02-17 11:31:48\', \'2024-02-17 11:31:48\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`customers`, `name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `task_description`, `created_at`, `updated_at`) VALUES (:customers:, :name:, :hourly_rate:, :start_date:, :due_date:, :priority:, :related_to:, :task_description:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Controllers\TaskController.php(63): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 11:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 11:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:01:41 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\TaskController.php(82): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:23:36 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\dashboard\index.php on line 71.
+ 1 APPPATH\Views\dashboard\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(37): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 12:25:06 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(37): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 12:25:22 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(37): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:30:08 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\dashboard\index.php on line 71.
+ 1 APPPATH\Views\dashboard\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(37): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 12:32:52 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(39): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:37:15 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 144.
+ 1 APPPATH\Views\tasks\task.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 144)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 12:38:01 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\tasks\task.php on line 151.
+ 1 APPPATH\Views\tasks\task.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 151)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:47:04 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Views\tasks\task.php on line 158.
+ 1 APPPATH\Views\tasks\task.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 158)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:53:42 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Views\tasks\task.php on line 158.
+ 1 APPPATH\Views\tasks\task.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 158)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 12:56:31 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Views\tasks\task.php on line 158.
+ 1 APPPATH\Views\tasks\task.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 158)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 12:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 12:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 13:00:28 --> ErrorException: Undefined array key "countdown"
+in APPPATH\Views\dashboard\index.php on line 75.
+ 1 APPPATH\Views\dashboard\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "countdown"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 13:03:00 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 13:03:31 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 13:04:16 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 13:04:30 --> ErrorException: Undefined array key "countdown"
+in APPPATH\Views\dashboard\index.php on line 75.
+ 1 APPPATH\Views\dashboard\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "countdown"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 13:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 13:06:19 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 13:09:14 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(37): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 13:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-17 13:21:55 --> Error creating Zoho CRM account. Code: Unknown, Details: No details available
+ERROR - 2024-02-17 13:21:55 --> Unexpected exception: Error creating Zoho CRM account. Code: Unknown, Details: No details available
+INFO - 2024-02-17 13:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 13:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 14:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 15:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 15:51:22 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(34): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:52:38 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:53:23 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\customers\summary.php on line 110.
+ 1 APPPATH\Views\customers\summary.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 110)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:55:17 --> ErrorException: Undefined array key "company"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:55:38 --> ErrorException: Undefined array key "company"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:55:53 --> ErrorException: Undefined array key "Primary_Contact"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Primary_Contact"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:56:15 --> ErrorException: Undefined array key "Primary_Email"
+in APPPATH\Views\customers\summary.php on line 116.
+ 1 APPPATH\Views\customers\summary.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Primary_Email"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 116)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 15:56:52 --> ErrorException: Undefined array key "company"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(30): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 17:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 17:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 17:40:31 --> ErrorException: Undefined array key "company"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(28): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 17:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 17:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 17:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 17:56:09 --> ErrorException: Undefined array key "Company"
+in APPPATH\Views\customers\summary.php on line 114.
+ 1 APPPATH\Views\customers\summary.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Company"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 114)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(28): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 17:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 18:04:23 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(34): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 18:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 18:42:56 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\Customer.php on line 122.
+ 1 APPPATH\Controllers\Customer.php(52): App\Controllers\Customer->createZohoAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 18:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 18:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 19:50:31 --> ErrorException: Undefined variable $data
+in APPPATH\Views\customers\summary.php on line 108.
+ 1 APPPATH\Views\customers\summary.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\TaskController.php(92): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 19:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 19:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 20:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 21:53:06 --> ErrorException: Undefined array key "Priority"
+in APPPATH\Views\tasks\task.php on line 161.
+ 1 APPPATH\Views\tasks\task.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Priority"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 161)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 21:54:10 --> ErrorException: Undefined array key "Priority"
+in APPPATH\Views\tasks\task.php on line 161.
+ 1 APPPATH\Views\tasks\task.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Priority"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 161)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 21:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 21:55:15 --> ErrorException: Undefined array key "tags"
+in APPPATH\Views\tasks\task.php on line 160.
+ 1 APPPATH\Views\tasks\task.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tags"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 160)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 21:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 21:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 22:08:24 --> ErrorException: Undefined array key 1
+in APPPATH\Views\tasks\task.php on line 209.
+ 1 APPPATH\Views\tasks\task.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 209)
+ 2 APPPATH\Views\tasks\task.php(154): formatSlaStatus('24')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 6 APPPATH\Controllers\TaskController.php(41): view('tasks/task', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 22:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 22:18:40 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\dashboard\index.php on line 74.
+ 1 APPPATH\Views\dashboard\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(35): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 22:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 22:22:02 --> ErrorException: Undefined array key "start_date"
+in APPPATH\Views\dashboard\index.php on line 79.
+ 1 APPPATH\Views\dashboard\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "start_date"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 22:22:51 --> ErrorException: Undefined array key "Start_date"
+in APPPATH\Views\dashboard\index.php on line 79.
+ 1 APPPATH\Views\dashboard\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Start_date"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-17 22:24:17 --> ErrorException: Undefined array key "tags"
+in APPPATH\Views\dashboard\index.php on line 80.
+ 1 APPPATH\Views\dashboard\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tags"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 22:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-17 22:27:13 --> ErrorException: Undefined array key "tags"
+in APPPATH\Views\dashboard\index.php on line 80.
+ 1 APPPATH\Views\dashboard\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tags"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-17 22:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 22:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-17 23:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

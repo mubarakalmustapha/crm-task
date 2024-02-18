@@ -1,0 +1,1643 @@
+CRITICAL - 2024-02-15 01:18:29 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-15 01:18:30 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Users\Aminu\Desktop\crmtask1\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\Users\Aminu\Desktop\crmtask1\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Aminu\Desktop\crmtask1\spark(88): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-15 01:20:19 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-15 01:20:19 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Users\Aminu\Desktop\crmtask1\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\Users\Aminu\Desktop\crmtask1\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Aminu\Desktop\crmtask1\spark(88): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-02-15 00:42:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Aminu\Desktop\crmtask1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Aminu\Desktop\crmtask1\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Aminu\Desktop\crmtask1\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-02-15 01:04:29 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 01:04:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:04:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$wDiVFqcfHUGEF/SMohBlculSNXJDqN1SIw89/V4UnZq7JtsLyb92e\', \'2024-02-15 01:04:29\', \'2024-02-15 01:04:29\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$wDiVFqcfHUGEF/SMohBlculSNXJDqN1SIw89/V4UnZq7JtsLyb92e\', \'2024-02-15 01:04:29\', \'2024-02-15 01:04:29\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:04:29 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$wDiVFqcfHUGEF/SMohBlculSNXJDqN1SIw89/V4UnZq7JtsLyb92e\', \'2024-02-15 01:04:29\', \'2024-02-15 01:04:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$wDiVFqcfHUGEF/SMohBlculSNXJDqN1SIw89/V4UnZq7JtsLyb92e\', \'2024-02-15 01:04:29\', \'2024-02-15 01:04:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$wDiVFqcfHUGEF/SMohBlculSNXJDqN1SIw89/V4UnZq7JtsLyb92e\', \'2024-02-15 01:04:29\', \'2024-02-15 01:04:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 01:06:29 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 01:06:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:06:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$zDyNcHnY8dbQKHNXi5hGiu3Wv7EwRO1OuxzLPpkCwJSEkYYZ8xscy\', \'2024-02-15 01:06:29\', \'2024-02-15 01:06:29\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$zDyNcHnY8dbQKHNXi5hGiu3Wv7EwRO1OuxzLPpkCwJSEkYYZ8xscy\', \'2024-02-15 01:06:29\', \'2024-02-15 01:06:29\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:06:29 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$zDyNcHnY8dbQKHNXi5hGiu3Wv7EwRO1OuxzLPpkCwJSEkYYZ8xscy\', \'2024-02-15 01:06:29\', \'2024-02-15 01:06:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$zDyNcHnY8dbQKHNXi5hGiu3Wv7EwRO1OuxzLPpkCwJSEkYYZ8xscy\', \'2024-02-15 01:06:29\', \'2024-02-15 01:06:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$zDyNcHnY8dbQKHNXi5hGiu3Wv7EwRO1OuxzLPpkCwJSEkYYZ8xscy\', \'2024-02-15 01:06:29\', \'2024-02-15 01:06:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 01:07:58 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 01:07:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:07:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$WXM0VDsp2PI14YdLtMj0.Op3.I.Ecvg.2RsoXl3y63SP8bnuv.rAu\', \'2024-02-15 01:07:58\', \'2024-02-15 01:07:58\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$WXM0VDsp2PI14YdLtMj0.Op3.I.Ecvg.2RsoXl3y63SP8bnuv.rAu\', \'2024-02-15 01:07:58\', \'2024-02-15 01:07:58\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:07:58 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$WXM0VDsp2PI14YdLtMj0.Op3.I.Ecvg.2RsoXl3y63SP8bnuv.rAu\', \'2024-02-15 01:07:58\', \'2024-02-15 01:07:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$WXM0VDsp2PI14YdLtMj0.Op3.I.Ecvg.2RsoXl3y63SP8bnuv.rAu\', \'2024-02-15 01:07:58\', \'2024-02-15 01:07:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$WXM0VDsp2PI14YdLtMj0.Op3.I.Ecvg.2RsoXl3y63SP8bnuv.rAu\', \'2024-02-15 01:07:58\', \'2024-02-15 01:07:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 01:08:10 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 01:08:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:08:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$rSm6T9j72HTjPqFwIoqYaeVhjAKCyeQ4NcVuT/B/Sp8hyLKDsbNfy\', \'2024-02-15 01:08:10\', \'2024-02-15 01:08:10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$rSm6T9j72HTjPqFwIoqYaeVhjAKCyeQ4NcVuT/B/Sp8hyLKDsbNfy\', \'2024-02-15 01:08:10\', \'2024-02-15 01:08:10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:08:10 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$rSm6T9j72HTjPqFwIoqYaeVhjAKCyeQ4NcVuT/B/Sp8hyLKDsbNfy\', \'2024-02-15 01:08:10\', \'2024-02-15 01:08:10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$rSm6T9j72HTjPqFwIoqYaeVhjAKCyeQ4NcVuT/B/Sp8hyLKDsbNfy\', \'2024-02-15 01:08:10\', \'2024-02-15 01:08:10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$rSm6T9j72HTjPqFwIoqYaeVhjAKCyeQ4NcVuT/B/Sp8hyLKDsbNfy\', \'2024-02-15 01:08:10\', \'2024-02-15 01:08:10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 01:09:53 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 01:09:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:09:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$GxmixlW/RzdHNruZi75ofec6KTE.ddJaxejONj1FCwBozCPP7cIai\', \'2024-02-15 01:09:53\', \'2024-02-15 01:09:53\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$GxmixlW/RzdHNruZi75ofec6KTE.ddJaxejONj1FCwBozCPP7cIai\', \'2024-02-15 01:09:53\', \'2024-02-15 01:09:53\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:09:53 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$GxmixlW/RzdHNruZi75ofec6KTE.ddJaxejONj1FCwBozCPP7cIai\', \'2024-02-15 01:09:53\', \'2024-02-15 01:09:53\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$GxmixlW/RzdHNruZi75ofec6KTE.ddJaxejONj1FCwBozCPP7cIai\', \'2024-02-15 01:09:53\', \'2024-02-15 01:09:53\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$GxmixlW/RzdHNruZi75ofec6KTE.ddJaxejONj1FCwBozCPP7cIai\', \'2024-02-15 01:09:53\', \'2024-02-15 01:09:53\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 01:10:07 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 01:10:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:10:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$ZUqlnOGMaDzVCPd1Y2Zh.eMfHTwOduUxbXT76toxkG2UzNKXBRY26\', \'2024-02-15 01:10:07\', \'2024-02-15 01:10:07\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$ZUqlnOGMaDzVCPd1Y2Zh.eMfHTwOduUxbXT76toxkG2UzNKXBRY26\', \'2024-02-15 01:10:07\', \'2024-02-15 01:10:07\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:10:07 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$ZUqlnOGMaDzVCPd1Y2Zh.eMfHTwOduUxbXT76toxkG2UzNKXBRY26\', \'2024-02-15 01:10:07\', \'2024-02-15 01:10:07\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$ZUqlnOGMaDzVCPd1Y2Zh.eMfHTwOduUxbXT76toxkG2UzNKXBRY26\', \'2024-02-15 01:10:07\', \'2024-02-15 01:10:07\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'Mubarak\', \'mustaphamubarakmustapha@gmail.com\', \'$2y$10$ZUqlnOGMaDzVCPd1Y2Zh.eMfHTwOduUxbXT76toxkG2UzNKXBRY26\', \'2024-02-15 01:10:07\', \'2024-02-15 01:10:07\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `created_at`, `updated_at`) VALUES (:full_name:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 01:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 01:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 01:36:34 --> Error: Call to undefined function getStatusClass()
+in APPPATH\Views\tasks\task.php on line 134.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 4 APPPATH\Controllers\Task.php(34): view('tasks/task', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 01:42:40 --> TypeError: App\Controllers\Task::add(): Argument #1 ($request) must be of type CodeIgniter\HTTP\IncomingRequest, string given, called in C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php on line 941
+in APPPATH\Controllers\Task.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add('$1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 01:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 01:48:08 --> ParseError: Unmatched '}'
+in APPPATH\Controllers\Task.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Controllers\\Task.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Task')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Task')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Task', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 01:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 01:55:55 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 30.
+ 1 APPPATH\Views\tasks\task.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(24): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:13:05 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:13:19 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:13:45 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:17:13 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:17:54 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:18:48 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:19:04 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 131.
+ 1 APPPATH\Views\tasks\task.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:21:13 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 132.
+ 1 APPPATH\Views\tasks\task.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:22:03 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 132.
+ 1 APPPATH\Views\tasks\task.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(47): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:22:51 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Controllers\Task.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:28:17 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Controllers\Task.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:28:19 --> Error: Class "App\Models\TasksModel" not found
+in APPPATH\Controllers\Task.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:28:34 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 132.
+ 1 APPPATH\Views\tasks\task.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:35:22 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 122.
+ 1 APPPATH\Views\tasks\task.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:43:17 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:43:23 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:44:50 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:46:25 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:47:17 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:47:18 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:50:04 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 130.
+ 1 APPPATH\Views\tasks\task.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 130)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 02:57:54 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 122.
+ 1 APPPATH\Views\tasks\task.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 03:00:05 --> ErrorException: Undefined variable $tasks
+in APPPATH\Views\tasks\task.php on line 122.
+ 1 APPPATH\Views\tasks\task.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(46): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 03:32:39 --> CodeIgniter\Validation\Exceptions\ValidationException: "" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('start_date', 'start_date', '24', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Task.php(66): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 03:34:57 --> CodeIgniter\Validation\Exceptions\ValidationException: "boolean" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('boolean')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('isActive', 'isActive', null, [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Task.php(66): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 03:35:38 --> CodeIgniter\Validation\Exceptions\ValidationException: "boolean" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('boolean')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('isActive', 'isActive', null, [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Task.php(66): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 03:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 03:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 03:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 03:52:57 --> ErrorException: Undefined variable $relatedToOptions
+in APPPATH\Views\tasks\task.php on line 86.
+ 1 APPPATH\Views\tasks\task.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $relatedToOptions', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 86)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(28): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 08:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 08:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 09:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 09:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 09:28:25 --> Error: Class "App\Controllers\TaskModel" not found
+in APPPATH\Controllers\Customer.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Customer->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 09:35:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customers/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customers/add.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/add', [], true)
+ 3 APPPATH\Controllers\Customer.php(81): view('customers/add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 09:37:10 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "customers/summary" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('customers/summary')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Customer.php(81): redirect('customers/summary')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 09:39:12 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "customers/summary" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('customers/summary')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Customer.php(82): redirect('customers/summary')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 09:40:02 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "customers/summary" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('customers/summary')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Customer.php(81): redirect('customers/summary')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 09:43:24 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "customers/summary" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('customers/summary')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Customer.php(82): redirect('customers/summary')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 09:58:25 --> Error: Class "App\Controllers\CustomerModel" not found
+in APPPATH\Controllers\Customer.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Customer->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 10:00:04 --> mysqli_sql_exception: Unknown column 'company' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Customer.php(63): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Customer->add()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 10:00:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'company' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (:company:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zip_code:, :country:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Customer.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:00:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'company' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:00:04\', \'2024-02-15 10:00:04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:00:04\', \'2024-02-15 10:00:04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (:company:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zip_code:, :country:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Customer.php(63): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:00:04 --> [Caused by] mysqli_sql_exception: Unknown column 'company' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:00:04\', \'2024-02-15 10:00:04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:00:04\', \'2024-02-15 10:00:04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'mubee\', \'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:00:04\', \'2024-02-15 10:00:04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`company`, `primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (:company:, :primary_email:, :phone_number:, :website:, :city:, :state:, :zip_code:, :country:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Customer.php(63): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 10:03:45 --> mysqli_sql_exception: Unknown column 'zip_code' in 'field list' in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Customer.php(63): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Customer->add()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 10:03:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'zip_code' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (:primary_email:, :phone_number:, :website:, :city:, :state:, :zip_code:, :country:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Customer.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:03:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'zip_code' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:03:45\', \'2024-02-15 10:03:45\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:03:45\', \'2024-02-15 10:03:45\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (:primary_email:, :phone_number:, :website:, :city:, :state:, :zip_code:, :country:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Customer.php(63): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:03:45 --> [Caused by] mysqli_sql_exception: Unknown column 'zip_code' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:03:45\', \'2024-02-15 10:03:45\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:03:45\', \'2024-02-15 10:03:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (\'exmaple@gmail.com\', \'qqqq\', \'qqqqqq\', \'qqqqqqq\', \'qqqqqq\', \'qqqqq\', \'qqqqqqq\', \'2024-02-15 10:03:45\', \'2024-02-15 10:03:45\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`primary_email`, `phone_number`, `website`, `city`, `state`, `zip_code`, `country`, `created_at`, `updated_at`) VALUES (:primary_email:, :phone_number:, :website:, :city:, :state:, :zip_code:, :country:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Customer.php(63): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->add()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:12:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tasks/add_task.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tasks/add_task.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/add_task', [], true)
+ 3 APPPATH\Controllers\Task.php(70): view('tasks/add_task', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:13:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tasks/add_task.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tasks/add_task.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/add_task', [], true)
+ 3 APPPATH\Controllers\Task.php(70): view('tasks/add_task', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:14:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tasks/add_task.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tasks/add_task.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/add_task', [], true)
+ 3 APPPATH\Controllers\Task.php(70): view('tasks/add_task', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 10:15:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`crmdatabase`.`tasks`, CONSTRAINT `tasks_customers_foreign` FOREIGN KEY (`customers`) REFERENCES `customers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Task.php(66): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Task->add()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 10:15:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`crmdatabase`.`tasks`, CONSTRAINT `tasks_customers_foreign` FOREIGN KEY (`customers`) REFERENCES `customers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (:name:, :hourly_rate:, :start_date:, :due_date:, :priority:, :related_to:, :customers:, :task_description:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Task.php(66): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:15:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`crmdatabase`.`tasks`, CONSTRAINT `tasks_customers_foreign` FOREIGN KEY (`customers`) REFERENCES `customers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (\'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'1\', \'1\', \'test\', \'2024-02-15 10:15:46\', \'2024-02-15 10:15:46\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (\'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'1\', \'1\', \'test\', \'2024-02-15 10:15:46\', \'2024-02-15 10:15:46\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (:name:, :hourly_rate:, :start_date:, :due_date:, :priority:, :related_to:, :customers:, :task_description:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Task.php(66): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:15:46 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`crmdatabase`.`tasks`, CONSTRAINT `tasks_customers_foreign` FOREIGN KEY (`customers`) REFERENCES `customers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (\'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'1\', \'1\', \'test\', \'2024-02-15 10:15:46\', \'2024-02-15 10:15:46\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (\'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'1\', \'1\', \'test\', \'2024-02-15 10:15:46\', \'2024-02-15 10:15:46\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (\'Mubarak task\', \'202\', \'24\', \'24\', \'High\', \'1\', \'1\', \'test\', \'2024-02-15 10:15:46\', \'2024-02-15 10:15:46\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasks` (`name`, `hourly_rate`, `start_date`, `due_date`, `priority`, `related_to`, `customers`, `task_description`, `created_at`, `updated_at`) VALUES (:name:, :hourly_rate:, :start_date:, :due_date:, :priority:, :related_to:, :customers:, :task_description:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Task.php(66): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 10:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 10:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:26:02 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 APPPATH\Controllers\Task.php(80): CodeIgniter\Model->__call('error', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:27:20 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 APPPATH\Controllers\Task.php(81): CodeIgniter\Model->__call('error', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:29:31 --> BadMethodCallException: Call to undefined method App\Models\TaskModel::getError
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Task.php(80): CodeIgniter\Model->__call('getError', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:30:32 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 APPPATH\Controllers\Task.php(77): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:32:29 --> ErrorException: Undefined variable $customers
+in APPPATH\Views\tasks\task.php on line 97.
+ 1 APPPATH\Views\tasks\task.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 97)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(30): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:32:33 --> ErrorException: Undefined variable $customers
+in APPPATH\Views\tasks\task.php on line 97.
+ 1 APPPATH\Views\tasks\task.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 97)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(30): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:34:57 --> ErrorException: Undefined variable $validation
+in APPPATH\Controllers\Task.php on line 33.
+ 1 APPPATH\Controllers\Task.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Controllers\\Task.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:35:06 --> ErrorException: Undefined variable $validation
+in APPPATH\Controllers\Task.php on line 33.
+ 1 APPPATH\Controllers\Task.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Controllers\\Task.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:35:24 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 35.
+ 1 APPPATH\Views\tasks\task.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(33): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:35:36 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 35.
+ 1 APPPATH\Views\tasks\task.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(33): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:35:40 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 35.
+ 1 APPPATH\Views\tasks\task.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(33): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:36:12 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\tasks\task.php on line 98.
+ 1 APPPATH\Views\tasks\task.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\Task.php(35): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:39:48 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 APPPATH\Controllers\Task.php(82): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:41:08 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 APPPATH\Controllers\Task.php(78): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:43:35 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 APPPATH\Controllers\Task.php(78): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 10:48:09 --> mysqli_sql_exception: Table 'crmdatabase.customers' doesn't exist in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#12 {main}
+CRITICAL - 2024-02-15 10:48:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'crmdatabase.customers' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:48:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'crmdatabase.customers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `customers`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `customers`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:48:09 --> [Caused by] mysqli_sql_exception: Table 'crmdatabase.customers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `customers`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `customers`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `customers`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 10:48:12 --> mysqli_sql_exception: Table 'crmdatabase.customers' doesn't exist in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#12 {main}
+CRITICAL - 2024-02-15 10:48:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'crmdatabase.customers' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:48:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'crmdatabase.customers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `customers`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `customers`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:48:12 --> [Caused by] mysqli_sql_exception: Table 'crmdatabase.customers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `customers`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `customers`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `customers`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customers`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Task.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->viewTasks()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+ERROR - 2024-02-15 10:48:38 --> mysqli_sql_exception: Table 'crmdatabase.users' doesn't exist in C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Aminu\Desktop\crmtask1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\Aminu\Desktop\crmtask1\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\Aminu\Desktop\crmtask1\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aminu\Desktop\crmtask1\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('mustaphamubarak...', 'email', Array, NULL, 'email')
+#6 C:\Users\Aminu\Desktop\crmtask1\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mustaphamubarak...', Array, Array)
+#7 C:\Users\Aminu\Desktop\crmtask1\app\Controllers\AuthController.php(29): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+#9 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\Users\Aminu\Desktop\crmtask1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aminu\Desktop\crmtask1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aminu\Desktop\crmtask1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\...')
+#13 {main}
+CRITICAL - 2024-02-15 10:48:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'crmdatabase.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('mustaphamubarakmustapha@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mustaphamubarakmustapha@gmail.com', [...], [...])
+ 5 APPPATH\Controllers\AuthController.php(29): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:48:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'crmdatabase.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'mustaphamubarakmustapha@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'mustaphamubarakmustapha@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('mustaphamubarakmustapha@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mustaphamubarakmustapha@gmail.com', [...], [...])
+ 7 APPPATH\Controllers\AuthController.php(29): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 10:48:38 --> [Caused by] mysqli_sql_exception: Table 'crmdatabase.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'mustaphamubarakmustapha@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'mustaphamubarakmustapha@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'mustaphamubarakmustapha@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('mustaphamubarakmustapha@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mustaphamubarakmustapha@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\AuthController.php(29): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->signup()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 10:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 10:50:18 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 APPPATH\Controllers\Task.php(78): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 11:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 11:02:02 --> ErrorException: Attempt to read property "errno" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 578.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\system\\Database\\MySQLi\\Connection.php', 578)
+ 2 APPPATH\Controllers\Task.php(78): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Task->add()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 11:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 11:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 11:20:51 --> ErrorException: Undefined array key "status"
+in APPPATH\Views\tasks\task.php on line 148.
+ 1 APPPATH\Views\tasks\task.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(34): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 11:20:53 --> ErrorException: Undefined array key "status"
+in APPPATH\Views\tasks\task.php on line 148.
+ 1 APPPATH\Views\tasks\task.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(34): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 11:20:53 --> ErrorException: Undefined array key "status"
+in APPPATH\Views\tasks\task.php on line 148.
+ 1 APPPATH\Views\tasks\task.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(34): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 11:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 15:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 17:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 21:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 22:06:11 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\customers\summary.php on line 110.
+ 1 APPPATH\Views\customers\summary.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 110)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(29): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 22:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 22:54:07 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\tasks\task.php on line 147.
+ 1 APPPATH\Views\tasks\task.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(35): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 22:54:08 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\tasks\task.php on line 147.
+ 1 APPPATH\Views\tasks\task.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(35): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 22:55:38 --> ErrorException: Undefined array key "Subject"
+in APPPATH\Views\tasks\task.php on line 147.
+ 1 APPPATH\Views\tasks\task.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Subject"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(35): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 22:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 22:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 22:58:12 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\customers\summary.php on line 110.
+ 1 APPPATH\Views\customers\summary.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php', 110)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\customers\\summary.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('customers/summary', [], true)
+ 5 APPPATH\Controllers\Customer.php(29): view('customers/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 23:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 23:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 23:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 23:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 23:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 23:16:12 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 35.
+ 1 APPPATH\Views\tasks\task.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(38): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+CRITICAL - 2024-02-15 23:16:53 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 35.
+ 1 APPPATH\Views\tasks\task.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(38): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
+INFO - 2024-02-15 23:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-15 23:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-15 23:23:53 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\tasks\task.php on line 35.
+ 1 APPPATH\Views\tasks\task.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Aminu\\Desktop\\crmtask1\\app\\Views\\tasks\\task.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tasks/task', [], true)
+ 5 APPPATH\Controllers\TaskController.php(38): view('tasks/task', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TaskController->viewTasks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aminu\\Desktop\\crmtask1\\public\\index.php')
